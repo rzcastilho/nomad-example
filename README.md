@@ -1,4 +1,4 @@
-# Nomad/Consul Example
+# Nomad Example
 
 #### Prepare
 ```
