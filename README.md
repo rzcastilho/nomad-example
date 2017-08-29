@@ -39,3 +39,8 @@ $ dig @127.0.0.1 -p 8600 jdk8-application-due.service.dc1.consul SRV
 #### Consul UI
 
 [http://localhost:8500/ui/#/dc1/services](http://localhost:8500/ui/#/dc1/services)
+
+#### Links
+
+  - [Nomad](https://www.nomadproject.io/)
+  - [Consul](https://www.consul.io/)
