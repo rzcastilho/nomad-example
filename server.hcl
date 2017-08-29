@@ -1,6 +1,6 @@
 bind_addr = "0.0.0.0" # the default
 
-data_dir  = "/Users/castilho/Documents/personal/hashcorp/nomad/var/lib/nomad"
+data_dir  = "/tmp/var/lib/nomad"
 
 server {
   enabled          = true
@@ -11,7 +11,7 @@ client {
   enabled       = true
   network_speed = 10
   options {
-    "docker.auth.config" = "/Users/castilho/.docker/config.json"
+    #"docker.auth.config"     = "~/.docker/config.json"
     "docker.cleanup.image"   = "0"
     "driver.raw_exec.enable" = "1"
   }
